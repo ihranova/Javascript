@@ -9,7 +9,6 @@ var sum_of_digits = function(n){
     }
     else{
         return n % 10 + sum_of_digits(parseInt(n / 10, 10));
-
     }
 };
 
